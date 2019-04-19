@@ -1,2 +1,2 @@
 # cnn-sentence-classification
-pytorch torchtext implemention of Convolutional Neural Networks for Sentence Classification
+This is the implementation of the Convolutional Neural Networks for Sentence Classification pytorch version
