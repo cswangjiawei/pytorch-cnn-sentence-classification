@@ -1,5 +1,6 @@
 cnn_sc/data/
 cnn_sc/log/
+cnn_sc/.idea
 __pycache_
 .vector_cache/
 *.pyc
