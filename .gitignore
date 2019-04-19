@@ -1,0 +1,5 @@
+cnn_sc/data/
+cnn_sc/log/
+__pycache_
+.vector_cache/
+*.pyc
