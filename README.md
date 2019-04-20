@@ -1,5 +1,5 @@
 # Convolutional Neural Networks for Sentence Classification
-This is the implementation of the Convolutional Neural Networks for Sentence Classification pytorch version
+This is the pytorch implementation of the "Convolutional Neural Networks for Sentence Classification"
 
 ## requirement
 - pytorch 1.0  
