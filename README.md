@@ -12,7 +12,7 @@ Model|TREC|MR
 CNN-rand|92.0|76.5
 CNN-pretrain|92.6|78.7
 
-##TensorboardX  
+## TensorboardX  
 
 ![trec_rand](https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/trec_rand.png)
 ![trec_pretrain](https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/trec_pretrain.png)
