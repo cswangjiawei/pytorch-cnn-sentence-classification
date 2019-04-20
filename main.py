@@ -10,6 +10,7 @@ import torch
 import numpy as np
 import random
 from tensorboardX import SummaryWriter
+import os
 
 
 seed_num = 42
@@ -50,6 +51,9 @@ if __name__ == '__main__':
     patience_count = 0
     model_name = args.savedir + 'best.pt'
     writer = SummaryWriter('log')
+
+    if not os.path.exists(args.savedir):
+        os.mkdir(args.savedir)
 
     train_begin = time.time()
 
