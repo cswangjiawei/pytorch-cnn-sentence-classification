@@ -12,8 +12,9 @@ Model|TREC|MR
 CNN-rand|92.0|76.5
 CNN-pretrain|92.6|78.7
 
-##TensorboardX
-(https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/trec_rand.png)
-(https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/trec_pretrain.png)
-(https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/MR_rand.png)
-(https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/MR_pretrain.png)
+##TensorboardX  
+
+!(https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/trec_rand.png)
+!(https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/trec_pretrain.png)
+!(https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/MR_rand.png)
+!(https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/MR_pretrain.png)
