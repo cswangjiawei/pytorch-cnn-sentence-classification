@@ -7,7 +7,7 @@ This is pytorch implementation of the "Convolutional Neural Networks for Sentenc
 - python 3.6
 
 ## results
-Model|TREC
---|:--:
-CNN-rand|92.0
-CNN-pretrain|92.6
+Model|TREC|MR
+--|:--:|:--:
+CNN-rand|92.0|76.5
+CNN-pretrain|92.6|78.7
