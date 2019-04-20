@@ -14,7 +14,7 @@ CNN-pretrain|92.6|78.7
 
 ##TensorboardX  
 
-!(https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/trec_rand.png)
-!(https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/trec_pretrain.png)
-!(https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/MR_rand.png)
-!(https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/MR_pretrain.png)
+![trec_rand](https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/trec_rand.png)
+![trec_pretrain](https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/trec_pretrain.png)
+![MR_rand](https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/MR_rand.png)
+![MR_pretrain](https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/MR_pretrain.png)
