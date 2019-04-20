@@ -2,6 +2,7 @@ from torchtext import data
 from torchtext.datasets.trec import TREC
 from torchtext.data import BucketIterator
 from torchtext.vocab import Vectors
+from torchtext.data import TabularDataset
 import re
 import os
 
@@ -14,11 +15,16 @@ def tokenize_line(line):
     return line.split()
 
 
-def load_datasets(batch_size, pretrain):
+def load_datasets(batch_size, pretrain, datasets):
     text = data.Field(tokenize=tokenize_line, lower=True, batch_first=True)
     label = data.Field(tokenize=tokenize_line, batch_first=True)
-    train_dev_data, test_data = TREC.splits(text_field=text, label_field=label, root='data')
-    train_data, dev_data = train_dev_data.split(split_ratio=0.9)
+    if datasets == 'TREC':
+        train_dev_data, test_data = TREC.splits(text_field=text, label_field=label, root='data')
+        train_data, dev_data = train_dev_data.split(split_ratio=0.9)
+    else:
+        tv_datafields =[('text', text), ('label', label)]
+        train_test_data = TabularDataset.splits(path='data/rt-polaritydata', train='rt-polarity.tsv', format='tsv', fields=tv_datafields)
+        train_data, dev_data, test_data = train_test_data[0].split(split_ratio=[0.8, 0.1, 0.1])
     if pretrain:
         print('use pretrain word vectors')
         cache = '.vector_cache'
@@ -39,4 +45,4 @@ def load_datasets(batch_size, pretrain):
 
 
 if __name__ == '__main__':
-    load_datasets(50, False)
+    load_datasets(50, False, 'MR')

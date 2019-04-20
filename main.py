@@ -33,10 +33,11 @@ if __name__ == '__main__':
     parser.add_argument('--lr', default=1.)
     parser.add_argument('--filters', default=[3, 4, 5])
     parser.add_argument('--pretrain', action='store_true')
+    parser.add_argument('--datasets', default='TREC')
 
     args = parser.parse_args()
 
-    data_iters, text_vocab, label_vocab = load_datasets(args.batch_size, args.pretrain)
+    data_iters, text_vocab, label_vocab = load_datasets(args.batch_size, args.pretrain, args.datasets)
     label_vocab_size = len(label_vocab) - 2
     model = SentClassif(args.word_dim, args.out_dim, label_vocab_size, text_vocab, args.dropout, args.filters)
     criterion = nn.CrossEntropyLoss()
