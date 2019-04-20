@@ -17,20 +17,24 @@ CNN-pretrain|92.6|78.7
 ![trec_rand](https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/trec_rand.png "trec_rand")  
 ### trec_rand  
     
-    
+      
+      
 
 
 ![trec_pretrain](https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/trec_pretrain.png "trec_pretrain")  
 ### trec_pretrain  
   
-     
+       
+       
      
 
 
 ![MR_rand](https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/MR_rand.png "MR_rand")  
 ## MR_rand  
-  
-  
+    
+    
+    
+    
 
 
 ![MR_pretrain](https://github.com/cswangjiawei/cnn-sentence-classification/blob/master/image/MR_pretrain.png "MR_pretrain")  
